@@ -24,13 +24,23 @@
         box-sizing: border-box;
     }
 
+    header, section, main{
+        padding: 30px;
+    }
+
+    .section-title{
+        margin-bottom: 30px;
+        border-bottom: 2px solid black;
+    }
+
 
 /*HEADER*/
     header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 25px 35px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     header h1{
@@ -50,6 +60,47 @@
 
     header nav ul li{
         flex-grow: 1;
-        font-size: 35px;
+        font-size: 40px;
     }
 
+
+/*MAIN*/
+    main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    /*About*/
+        #about .headshot{
+            width: 35%;
+            margin: 10px 0 20px;
+        }
+
+        #about p{
+            padding: 0 30px;
+            text-align: left;
+        }
+
+
+    /*Contact*/
+        #contact{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .contact-info{
+            display: flex;
+            flex-direction: column;
+            align-items: right;
+        }
+
+        .contact-info a{
+            font-size: 25px;
+            line-height: 1.5;
+        }
+        
+        .contact-info img{
+            width: 20px;
+        }

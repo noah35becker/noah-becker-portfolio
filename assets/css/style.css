@@ -37,6 +37,14 @@
         border-bottom: 2px solid black;
     }
 
+    /*Backround image at top of page*/
+    header, .hero{
+        background-image: url(../images/noah-becker-large.jpg);
+        background-size: contain;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center -40%;
+    }
 
 /*HEADER*/
     header{
@@ -65,6 +73,11 @@
     header nav ul li{
         flex-grow: 1;
         font-size: 40px;
+    }
+
+
+/*HERO*/
+    .hero{
     }
 
 

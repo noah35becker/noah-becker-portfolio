@@ -26,7 +26,7 @@
 
     * {
         box-sizing: border-box;
-        font-family: Tahoma, Garamond, monospace;
+        font-family: Helvetica, Arial, monospace;
     }
 
     header, section, main, footer{
@@ -41,6 +41,16 @@
     }
 
 
+/*Backround image at top of page*/
+header, .hero{
+    background-image: url(../images/background-forest.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+
 /*HEADER*/
     header{
         display: flex;
@@ -48,6 +58,7 @@
         align-items: center;
         padding-left: 35px;
         padding-right: 35px;
+        border: none;
     }
 
     header h1{
@@ -98,6 +109,38 @@
         }
 
 
+    /*Work*/
+        #work{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }    
+
+        .project{
+            border: 5px solid green; /*placeholder color*/
+            width: 75%;
+            height: 400px;
+            margin: 25px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .project-text-wrapper{
+            text-align: left;
+            padding: 15px;
+            height: min-content;
+            margin-top: 125px;
+            border-top: 3px solid green;
+            border-right: 3px solid green;
+            border-bottom: 3px solid green;
+            line-height: 1.3;
+        }
+
+        .project-coding-language{
+            font-style: italic;
+        }
+
+
     /*Contact*/
         #contact{
             display: flex;
@@ -130,4 +173,5 @@
     footer h4{
         text-align: center;
         line-height: 1.2;
+        font-weight: normal;
     }

@@ -40,16 +40,6 @@
     }
 
 
-/*Backround image at top of page*/
-header, .hero{
-    background-image: url(../images/noah-becker-large.jpg);
-    background-size: contain;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center -40%;
-}
-
-
 /*HEADER*/
     header{
         display: flex;

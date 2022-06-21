@@ -102,8 +102,7 @@ header, .hero{
 
     header h1{
         margin-top: 20px;
-        margin-bottom: 80px;
-        line-height: 0;
+        margin-bottom: 40px;
     }
 
     header nav{
@@ -120,8 +119,6 @@ header, .hero{
     header nav ul li{
         flex-grow: 1;
         font-size: 40px;
-        line-height: 0;
-        padding: 25px 0;
     }
 
 

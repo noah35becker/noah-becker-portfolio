@@ -67,7 +67,7 @@
     }
 
     .text-shadow{
-        text-shadow: 0 0 15px rgba(255,255,255,.9);
+        text-shadow: 0 0 20px rgba(255,255,255,1);
     }
 
     .text-outline{

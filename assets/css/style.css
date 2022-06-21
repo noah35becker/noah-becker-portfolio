@@ -136,7 +136,7 @@ header, .hero{
             margin: 25px 0;
             display: flex;
             align-items: center;
-            background-size: contain;
+            background-size: cover;
         }
 
         .project-text-wrapper{
@@ -144,9 +144,8 @@ header, .hero{
             padding: 15px;
             height: min-content;
             margin-top: 125px;
-            border-top: 3px solid green;
-            border-right: 3px solid green;
-            border-bottom: 3px solid green;
+            border: 3px solid green;
+            border-left: none;
             line-height: 1.3;
         }
 

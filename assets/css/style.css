@@ -47,7 +47,6 @@ header, .hero{
     background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
 }
 
 
@@ -62,7 +61,8 @@ header, .hero{
     }
 
     header h1{
-        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     header nav{
@@ -84,8 +84,21 @@ header, .hero{
 
 /*HERO*/
     .hero{
-        padding: 60px 0;
+        border-top: none;
+        display: flex;
+        justify-content: center;
         text-align: center;
+        height: 250px;
+        padding-bottom: 0;
+        align-items: center;
+        border: none;
+    }
+
+    .hero-text{
+        height: min-content;
+        background-color: #f2e453; /*Placeholder color*/
+        padding: 15px;
+        border-radius: 25px;
     }
 
 

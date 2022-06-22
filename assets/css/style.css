@@ -184,6 +184,7 @@ header, .hero{
         .headshot{
             width: 35%;
             margin: 10px 0 20px;
+            max-width: 275px;
         }
 
         .bio{
@@ -255,8 +256,6 @@ header, .hero{
     /*Contact*/
         #contact{
             background-image: linear-gradient(40deg, var(--color-1), var(--color-1-alpha-lighter));
-            display: flex;
-            flex-direction: column;
         }
     
         .contact-info{
@@ -370,7 +369,7 @@ header, .hero{
         /*MAIN*/
             main section{
                 display: flex;
-                flex-direction: row !important; /*Is this "important" really necessary?*/
+                flex-direction: row;
                 padding-left: 30px;
                 padding-right: 30px;
             }
@@ -380,7 +379,7 @@ header, .hero{
                 border-right: 2px solid black;
                 border-bottom: none;
                 padding-right: 25px;
-                min-width: 20vw;
+                min-width: 250px;
                 height: 100%;
                 font-size: 35px;
             }
@@ -392,6 +391,8 @@ header, .hero{
 
             .right-col{
                 padding-left: 45px;
+                justify-content: center;
+                flex-grow: 1;
             }
 
 
@@ -443,8 +444,8 @@ header, .hero{
                 }
                 .contact-info a{
                     font-size: 18px;
-                    margin-left: 5px;
-                    margin-right: 5px;
+                    margin-left: 20px;
+                    margin-right: 20px;
                 }
                 .contact-info a:first-child{
                     margin-top: 12px;
@@ -460,4 +461,21 @@ header, .hero{
 /*MEDIA QUERY FOR LARGER DESKTOP SCREENS*/
     @media screen and (min-width: 980px){
         
+        .right-col{
+            padding-right: 15px;
+        }
+
+        .hero{
+            height: 42vh;
+        }
+
+        header{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding-bottom: 0;
+            padding-top: 10px;
+            z-index: 9999;
+        }
+
     }

@@ -90,7 +90,7 @@
 header, .hero{
     background-color: var(--color-1-alpha-lighter); /*fallback*/
     background-image: url(../images/background-forest.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }

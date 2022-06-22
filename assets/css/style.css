@@ -379,7 +379,7 @@ header, .hero{
                 border-right: 2px solid black;
                 border-bottom: none;
                 padding-right: 25px;
-                min-width: 250px;
+                min-width: 175px;
                 height: 100%;
                 font-size: 35px;
             }
@@ -422,15 +422,15 @@ header, .hero{
                     flex-basis: 100%;
                 }
                 #work a:first-child .project{
-                    min-height: 325px;
+                    min-height: 350px;
                 }
                 #work a:first-child .project-text-wrapper{
-                    margin-top: 130px;
+                    margin-top: 150px;
                 }
                 
                 
                 #work a:not(:first-child){
-                    flex-basis: 45%;
+                    flex-basis: 48%;
                     flex-grow: 0;
                 }
 
@@ -476,6 +476,10 @@ header, .hero{
             padding-bottom: 0;
             padding-top: 10px;
             z-index: 9999;
+        }
+
+        .section-title{
+            min-width: 200px;
         }
 
     }

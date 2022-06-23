@@ -33,12 +33,12 @@ The web application uses a responsive layout that adapts to different viewports 
 
 Below are screenshots of the final version of the web application at various screen sizes:
 
-- [1440 width (900 height)](assets/final-screenshots/final-screenshot-1440-x-900.png/)
-- [1000 width (800 height)](assets/final-screenshots/final-screenshot-1000-x-800.png/)
-- [900 width (725 height)](assets/final-screenshots/final-screenshot-900-x-725.png/)
-- [750 width (600 height)](assets/final-screenshots/final-screenshot-750-x-600.png/)
-- [500 width (700 height)](assets/final-screenshots/final-screenshot-500-x-700.png/)
-- [390 width (700 height)](assets/final-screenshots/final-screenshot-390-x-700.png/)
+- [1440 width (900 height)](assets/final-screenshots/final-screenshot-1440-x-900.png)
+- [1000 width (800 height)](assets/final-screenshots/final-screenshot-1000-x-800.png)
+- [900 width (725 height)](assets/final-screenshots/final-screenshot-900-x-725.png)
+- [750 width (600 height)](assets/final-screenshots/final-screenshot-750-x-600.png)
+- [500 width (700 height)](assets/final-screenshots/final-screenshot-500-x-700.png)
+- [390 width (700 height)](assets/final-screenshots/final-screenshot-390-x-700.png)
 
 <br/>
 – Noah

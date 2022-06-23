@@ -216,7 +216,7 @@ header, .hero{
             display: flex;
             align-items: center;
             background-size: cover;
-            min-height: 250px;
+            min-height: 300px;
             height: 10vw; /*Given min-height, this will only apply to very large screens*/
         }
 
@@ -228,7 +228,7 @@ header, .hero{
             border: 3px solid var(--color-1);
             border-left: none;
             padding: 8px 15px;
-            margin-top: 90px;
+            margin-top: 125px;
         }
 
         .project-coding-language{
@@ -422,10 +422,10 @@ header, .hero{
                     flex-basis: 100%;
                 }
                 #work a:first-child .project{
-                    min-height: 350px;
+                    min-height: 400px;
                 }
                 #work a:first-child .project-text-wrapper{
-                    margin-top: 150px;
+                    margin-top: 215px;
                 }
                 
                 

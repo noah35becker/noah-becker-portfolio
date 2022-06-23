@@ -15,15 +15,16 @@ This code completes the weekly challenge for Module #2 in Columbia's Coding Boot
 
 I have created a work sample portfolio, which contains:
 - My name
+- Navigation links for page sections
+    - Clicking a given nav link scrolls the page to the given section
 - A recent photo
 - A short bio
-- Links for sections about me, my work, and how to contact me
-    - Clicking a given nav link scrolls the page to the given section
 - A sample collection of clickable, titled images of web applications of mine
     - These are currently dummy/filler projects; clicking on a given project takes the user to a dummy page
         - I will update these with real projects as I actually build more
-    - Project #1's image is larger than that of the other projectss
+    - Project #1's image is larger than that of the other projects
         - For practical/visual reasons, this is true only for tablet-sized screens and larger; for screens narrower than 768px, all project images are the same size
+- Clickable contact info
 
 The web application uses a responsive layout that adapts to different viewports and devices.
 

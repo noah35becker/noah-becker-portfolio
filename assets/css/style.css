@@ -328,7 +328,7 @@ header, .hero{
 
 
 /*MEDIA QUERY TO FIX CONTACT INFO'S LINE BREAKS FOR SMALL SCREENS*/
-@media screen and (max-width: 530px){
+@media screen and (max-width: 545px){
     .contact-info a img:last-child{
         display: none;
     }

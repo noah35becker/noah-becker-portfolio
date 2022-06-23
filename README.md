@@ -11,6 +11,7 @@
 <br/>
 
 This code completes the weekly challenge for Module #2 in Columbia's Coding Bootcamp.
+
 <br/>
 
 I have created a work sample portfolio, which contains:
@@ -32,7 +33,7 @@ The web application uses a responsive layout that adapts to different viewports 
 
 
 
-Below are screenshots (best viewed if downloaded locally) of the final version of this web application at various screen sizes:
+Below are screenshots (best viewed if downloaded locally) of the final version* of this web application at various screen sizes:
 
 - [ALL screenshots (zipped)](assets/final-screenshots/ALL-final-screenshots.zip)
 - [1440 width (900 height)](assets/final-screenshots/final-screenshot-1440-x-900.png)
@@ -41,6 +42,8 @@ Below are screenshots (best viewed if downloaded locally) of the final version o
 - [750 width (600 height)](assets/final-screenshots/final-screenshot-750-x-600.png)
 - [500 width (700 height)](assets/final-screenshots/final-screenshot-500-x-700.png)
 - [390 width (700 height)](assets/final-screenshots/final-screenshot-390-x-700.png)
+
+*<em>Bio text in screenshots is outdated; the screenshots are otherwise accurate</em>
 
 <br/>
 – Noah

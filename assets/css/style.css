@@ -265,6 +265,10 @@ header, .hero{
             text-align: center;
         }
 
+        .contact-info a br{
+            display: none; /*Line breaks will only display on small screens (see media query below)*/
+        }
+
         .contact-info a, .contact-info img{
             display: inline-block;
             vertical-align: middle;
@@ -304,6 +308,25 @@ header, .hero{
     footer h5 span{
         border-right: 2px solid black;
     }
+
+
+
+/*MEDIA QUERY TO FIX CONTACT INFO'S LINE BREAKS FOR SMALL SCREENS*/
+@media screen and (max-width: 530px){
+    .contact-info a img:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width: 499px){
+    
+    .contact-info a br{
+        display: block;
+    }
+    
+    .contact-info a img{
+        margin-bottom: 5px;
+    }
+}
 
 
 /*MEDIA QUERY FOR SMALL TABLETS AND LARGER*/

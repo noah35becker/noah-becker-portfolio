@@ -1,4 +1,4 @@
-# Module #2 Challenge
+# Coding Portfolio
 ## Noah Becker
 
 ### [Github repo](https://github.com/noah35becker/noah-becker-portfolio/)

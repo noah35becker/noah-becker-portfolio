@@ -33,12 +33,12 @@
         font-size: 20px;
     }
 
-    a{
-        text-decoration: none;
-    }
-
     p{
         font-size: 23px;
+    }
+
+    a{
+        text-decoration: none;
     }
 
     a, a:visited, a:active{
@@ -56,11 +56,6 @@
 
     header, section, footer{
         padding: 30px;
-    }
-
-    .hover-opacity:hover{
-        opacity: .7;
-        transition: 150ms;
     }
 
 
@@ -88,6 +83,11 @@
 		    1px -1px var(--text-outline-blur-radius) var(--text-outline-color),
             -1px -1px var(--text-outline-blur-radius) var(--text-outline-color);
 
+    }
+
+    .hover-opacity:hover{
+        opacity: .7;
+        transition: 150ms;
     }
 
 
@@ -333,6 +333,7 @@ header, .hero{
         display: none;
     }
 }
+
 @media screen and (max-width: 499px){
     
     .contact-info a br{
@@ -377,13 +378,11 @@ header, .hero{
                 font-size: 40px;
                 margin: 30px 0;
                 flex-grow: 6;
-                flex-shrink: 1;
             }
 
             header nav{
                 flex-basis: content;
                 flex-grow: 5;
-                flex-shrink: 3;
             }
             
             header nav ul{
@@ -467,7 +466,6 @@ header, .hero{
                     margin-top: 215px;
                 }
                 
-                
                 #work a:not(:first-child){
                     flex-basis: 48%;
                     flex-grow: 0;
@@ -481,14 +479,17 @@ header, .hero{
                     justify-content: space-around;
                     text-align: center;
                 }
+
                 .contact-info a{
                     font-size: 18px;
                     margin-left: 20px;
                     margin-right: 20px;
                 }
+                
                 .contact-info a:first-child{
                     margin-top: 12px;
                 }
+                
                 .contact-info img{
                     height: 22px;
                 }
@@ -499,14 +500,6 @@ header, .hero{
 
 /*MEDIA QUERY FOR LARGER DESKTOP SCREENS*/
     @media screen and (min-width: 980px){
-        
-        .right-col{
-            padding-right: 15px;
-        }
-
-        .hero{
-            height: 42vh;
-        }
 
         header{
             position: -webkit-sticky;
@@ -517,8 +510,16 @@ header, .hero{
             z-index: 9999;
         }
 
+        .hero{
+            height: 42vh;
+        }
+
         .section-title{
             min-width: 200px;
+        }
+
+        .right-col{
+            padding-right: 15px;
         }
 
     }

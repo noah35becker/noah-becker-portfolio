@@ -520,6 +520,10 @@ header, .hero{
             height: 42vh;
         }
 
+        main section{
+            scroll-margin-top: 100px; /*When clicking on nav links, ensures that the sticky header doesn't obstruct the given section clicked*/
+        }
+
         .section-title{
             min-width: 200px;
         }

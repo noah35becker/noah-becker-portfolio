@@ -138,6 +138,8 @@ header, .hero{
     header nav ul li{
         flex-grow: 1;
         font-size: 40px;
+        line-height: 1.4;
+        margin: 0 10px;
     }
 
 

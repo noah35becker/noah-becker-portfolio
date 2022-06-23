@@ -31,7 +31,7 @@ The web application uses a responsive layout that adapts to different viewports 
 
 
 
-Below are screenshots of the final version of the web application at various screen sizes:
+Below are screenshots (best viewed if downloaded locally) of the final version of this web application at various screen sizes:
 
 - [1440 width (900 height)](assets/final-screenshots/final-screenshot-1440-x-900.png)
 - [1000 width (800 height)](assets/final-screenshots/final-screenshot-1000-x-800.png)

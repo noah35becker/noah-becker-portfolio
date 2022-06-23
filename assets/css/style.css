@@ -181,9 +181,14 @@ header, .hero{
             background-image: linear-gradient(220deg, var(--color-1), var(--color-1-alpha-lighter));
         }
     
+        #about .right-col{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
         .headshot{
             width: 35%;
-            margin: 10px 0 20px;
+            margin-bottom: 20px;
             max-width: 275px;
         }
 
@@ -192,6 +197,15 @@ header, .hero{
             display: inline-block;
             text-align: left;
             line-height: 1.3;
+        }
+
+        .bio span{
+            font-weight: bolder;
+        }
+
+        .bio .line-break{
+            display: block;
+            line-height: 1.1;
         }
 
 
